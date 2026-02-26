@@ -23,6 +23,9 @@ Mutations:
 - /api/telemetry/ingest
 - /api/radar/run
 
+## Automation
+- Run `scripts/functions-smoke.sh [app_dir]`.
+
 ## Gate
 - status in {200,307,308}
 - page/api p95 <= 2500ms

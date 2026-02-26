@@ -17,6 +17,9 @@ description: Generate and deliver daily executive brief with fallback behavior w
 - If API rate-limited: retry with backoff window, then send short fallback alert.
 - Never send empty success message.
 
+## Automation
+- Use `scripts/brief-fallback-template.sh [source] [retry_window]` when brief generation is degraded.
+
 ## Fallback message
 - State which data source failed
 - State when next retry will happen

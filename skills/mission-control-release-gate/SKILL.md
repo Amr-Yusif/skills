@@ -23,6 +23,9 @@ description: Run release safety gates for Mission Control with strict backup/rol
 - `curl -I http://127.0.0.1:3010/overview`
 - `curl -I https://mc.openclaw.nexusflow.agency/overview`
 
+## Automation
+- Run `scripts/release-gate.sh [app_dir] [base_url]` for deterministic gate execution.
+
 ## Success criteria
 - Tests/build pass
 - Service active/running

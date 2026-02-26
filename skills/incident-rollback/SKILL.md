@@ -15,6 +15,9 @@ description: Handle service incidents with fast containment and deterministic ro
 - Bad deploy: checkout rollback ref and restart service.
 - Config drift: restore from timestamped backup.
 
+## Automation
+- Use `scripts/recover-port-3010.sh [service] [port]` for rapid containment/restart when port conflicts occur.
+
 ## Verification after rollback
 - Service status active/running
 - Core route headers healthy

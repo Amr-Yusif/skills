@@ -11,6 +11,9 @@ description: Operate Mission Control radar workflows (trigger, history review, l
 3. Validate status, duration, and delivery fields.
 4. Summarize top signals into actions.
 
+## Automation
+- Run `scripts/radar-run-check.sh [base_url]` to trigger + verify radar history quickly.
+
 ## Health checks
 - Radar trigger endpoint reachable (200/307)
 - History endpoint returns entries
