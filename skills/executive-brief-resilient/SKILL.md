@@ -19,6 +19,7 @@ description: Generate and deliver daily executive brief with fallback behavior w
 
 ## Automation
 - Use `scripts/brief-fallback-template.sh [source] [retry_window]` when brief generation is degraded.
+- For retry cadence and fallback criteria, load `references/retry-policy.md`.
 
 ## Fallback message
 - State which data source failed

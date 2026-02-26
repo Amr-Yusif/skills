@@ -17,6 +17,7 @@ description: Handle service incidents with fast containment and deterministic ro
 
 ## Automation
 - Use `scripts/recover-port-3010.sh [service] [port]` for rapid containment/restart when port conflicts occur.
+- For incident signatures and branch-specific diagnosis, load `references/failure-signatures.md`.
 
 ## Verification after rollback
 - Service status active/running

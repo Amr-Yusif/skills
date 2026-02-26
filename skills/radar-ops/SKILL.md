@@ -13,6 +13,7 @@ description: Operate Mission Control radar workflows (trigger, history review, l
 
 ## Automation
 - Run `scripts/radar-run-check.sh [base_url]` to trigger + verify radar history quickly.
+- For signal quality triage and escalation criteria, load `references/radar-triage.md`.
 
 ## Health checks
 - Radar trigger endpoint reachable (200/307)

@@ -25,6 +25,7 @@ description: Run release safety gates for Mission Control with strict backup/rol
 
 ## Automation
 - Run `scripts/release-gate.sh [app_dir] [base_url]` for deterministic gate execution.
+- For full stage-by-stage checks, load `references/release-checklist.md`.
 
 ## Success criteria
 - Tests/build pass

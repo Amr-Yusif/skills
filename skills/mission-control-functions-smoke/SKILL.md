@@ -25,6 +25,7 @@ Mutations:
 
 ## Automation
 - Run `scripts/functions-smoke.sh [app_dir]`.
+- For budget baselines and gate interpretation, load `references/budget-baselines.md`.
 
 ## Gate
 - status in {200,307,308}
